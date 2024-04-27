@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="manifest" href="manifest.json">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="David Strikaitis">
+        <title>Time Void</title>
+        <link href="assets/css/screen.css" rel="stylesheet" text="text/css">
+
+        <link rel="icon" href="/assets/imgs/icon192.png" type="image" />
+        <link rel="apple-touch-icon" href="assets/imgs/icon192.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="white"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="TimeVoid">
+        <meta name="msapplication-TileImage" content="assets/imgs/icon192.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+    </head>
+    <body id = "bodyy">
+        <h1>
+            Time Void
+        </h1>
+
+    <div id="Restore_data_">
+        Saved Data has been found<br><br>
+        What would you like to do with it?<br>
+        <button id="Restore_Save_Data_">Restore Save Data</button><br>
+        <button id="Delete_Save_Data_">Delete Save Data</button>
+    </div>
+
+    <p>
+        <br>
+        <canvas id="the_canvas"  width="480px" height="854px" >
+            oops! it looks like your browser doesnt support canvas!
+        </canvas>
+    </p>
+
+    <p>
+        <div id="hostPG">
+        <button id="host_button">host</button>
+        <p id="connectText">
+
+        </p>
+
+        <br>
+        <button id="SyncHost">Sync</button><br>
+    </p>
+    </div>
+
+    <p id="peer">
+        <input type="text" id="HostConnection" placeholder="Host ID">
+        <button id="connect_Button">Connect</button>
+        <br>
+        <button id="Sync">Sync</button><br>
+    
+    </p>
+
+    <p>
+        <form name="reset_name_data_" method="get" onsubmit="handleForm()">
+    <div id="reset_name_data_Wrapper">
+        <input type="text" id="profileImage" name="profileImage" placeholder="Image Number 0-9"><br><br>
+        <input type="text" id="playerName" name="name" placeholder="Username"><br><br>
+        <input type="submit" id="submit" value="Submit">
+    </div>
+        </form> 
+
+    <div id="home">
+        <br>
+        <button id="StartGameS">SinglePlayer</button><br><br>
+
+        Multiplayer:<br>
+        <button onclick="host()">HOST</button><br>
+        <button onclick="connect()">CONNECT</button>
+    </div>
+    </p>
+
+    <div id ="hostLobbyScreen">
+    <p id="hostLobbyText">
+        waiting for Player Sync . . .
+    </p>
+    <p>
+        <button id="Hosthello">say Hello!</button>
+        <button id="StartGame">Start</button>
+    </p>
+    </div>
+
+    <div id ="peerLobbyScreen">
+    <p id="peerLobbyText">
+        waiting For Host Sync . . .
+    </p>
+    <p>
+        <button id="hello">say Hello!</button><br>
+    </p>
+</div>
+
+    <script src="sw.js"></script>
+
+    <script src="assets/js/peerToPeerPackage.js"></script>
+
+    <script src="assets/js/canvas.js"></script>
+    <script src="assets/js/global.js"></script>
+    <script src="assets/js/home.js"></script>
+    <script src="assets/js/restore.js"></script>
+
+    <script src="assets/js/background.js"></script>
+    <script src="assets/js/characters.js"></script>
+    
+    <script src="assets/js/host.js"></script>
+    <script src="assets/js/peer.js"></script>
+
+    <script src="assets/js/button.js"></script>
+    <script src="assets/js/input.js"></script>
+    <script src="assets/js/radialMenu.js"></script>
+    <script src="assets/js/tile.js"></script>
+    <script src="assets/js/buffer.js"></script>
+
+    <script src="assets/js/gameLoop.js"></script>
+    <script src="assets/js/menuLoop.js"></script>
+    <script src="assets/js/instructionsLoop.js"></script>
+    <script src="assets/js/winnerScreen.js"></script>
+    <script src="assets/js/loop.js"></script>
+    </body>
+</html>

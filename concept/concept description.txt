@@ -1,0 +1,26 @@
+Time Void
+
+Idea:
+In this game you will have to implement a degree of strategy to overcome the enemy by playing in the correct era, and strategically playing moves to counter act the enemy as well as conquer teritory
+
+Win condition:
+To win the game the player must try to occupy an entire time era before the enemy
+The player can gain a tile by occupying it for a total of 3 moves, only the occupier of the tile may spawn characters in that tile
+
+Game Loop:
+the player will fight the enemy by playing new characters, the player will be able to spawn 1 new character per turn (these may be saved up to overwhelm the enemy)
+the player can attack characters which, will reliably do 1 damage, if the enemy is defending it will recieve 1 extra defensem so 2 characters must attack it on the same turn
+or the enemy can just move to a new tile
+all actions are executed at the same time, so if 2 characters walk into a tile neither will move into the tile
+the character can move to the opposite time but the time change will be locked for 2 turns so they should be used strategically
+
+the archer    : can attack into any tile
+the swordsman : moves to the tile they attack into
+the shieldsman: defends the tile they are in and gains 2 defense points
+
+the player can reoccupy an occupied tile by staying in it for 3 consecutive turns
+(the same character does not have to occupy the tile, but it does have to be the same player/team)
+
+assets:
+i will be drawing most assets in the game, and if there are any images i can source on the internet i will be using them if it aligns with my art style
+i will however be drawing most assets as animations will be difficult to get online like i want them to be

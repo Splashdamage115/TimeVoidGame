@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 24px;
+}
+
+#the_canvas{
+    background-color:floralwhite;
+    outline-style: groove;
+    outline-width: 2px;
+    border-radius: 1%;
+}
+
+#peer{
+    background-color: azure;
+}
+
+#hostPG{
+    background-color: azure;
+}
+
+#home{
+    background-color: azure;
+}
+
+#hostLobbyScreen{
+    background-color: azure;
+}
+
+#peerLobbyScreen{
+    background-color: azure;
+}
+#reset_name_data_{
+    background-color: azure;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid blue;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px blue;
+  }
+  
+  button:hover {
+    transform: translate(5px, -5px);
+  }
+
+  #submit {
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    background-color: #000;
+    border: 3px solid blue;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px blue;
+  }
+  
+  #submit:hover {
+    transform: translate(5px, -5px);
+  }
+
+  input {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 3px;
+    padding: 3px 10px;
+}
+
+input:hover {
+    border-bottom: solid black 4px;
+  }

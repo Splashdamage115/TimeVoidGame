@@ -1,0 +1,32 @@
+{
+  "name": "Time Void",
+  "short_name": "TV",
+  "lang": "en-GB",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "blue",
+  "theme_color": "blue",
+  "start_url": "/David_Strikaitis_c00283152-UI-Programming-Module-Project/index.html",
+  "scope": "/David_Strikaitis_c00283152-UI-Programming-Module-Project/",
+  "icons": [{
+      "src": "https://codeberg.org/UI-Programming-23-24/David_Strikaitis_c00283152-UI-Programming-Module-Project/raw/branch/main/assets/imgs/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src": "https://codeberg.org/UI-Programming-23-24/David_Strikaitis_c00283152-UI-Programming-Module-Project/raw/branch/main/assets/imgs/icon256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },{
+      "src": "https://codeberg.org/UI-Programming-23-24/David_Strikaitis_c00283152-UI-Programming-Module-Project/raw/branch/main/assets/imgs/logo384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }, {
+      "src": "https://codeberg.org/UI-Programming-23-24/David_Strikaitis_c00283152-UI-Programming-Module-Project/raw/branch/main/assets/imgs/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }]
+}
